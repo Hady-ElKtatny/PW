@@ -3,8 +3,8 @@
     {
       "id": "lean-canvas",
       "description": "A placeholder image for the Lean Canvas diagram.",
-      "imageUrl": "https://images.unsplash.com/photo-1744473119469-905016183836?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkaWFncmFtJTIwY2hhcnR8ZW58MHx8fHwxNzY2MDI0NDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "diagram chart"
+      "imageUrl": "https://storage.googleapis.com/stey-public/competency-bridge-lean-canvas.png",
+      "imageHint": "lean canvas"
     },
     {
       "id": "skills-canyon",

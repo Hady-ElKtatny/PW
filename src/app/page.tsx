@@ -186,8 +186,8 @@ export default function Home() {
                     <Image
                       src={leanCanvasImage.imageUrl}
                       alt="Lean Canvas Diagram"
-                      width={600}
-                      height={400}
+                      width={1280}
+                      height={720}
                       className="w-full object-cover"
                       data-ai-hint={leanCanvasImage.imageHint}
                     />
