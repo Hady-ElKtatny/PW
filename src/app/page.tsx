@@ -160,9 +160,9 @@ export default function Home() {
 
         {/* Prototype Section */}
         <section id="prototype" className="w-full bg-card py-20 lg:py-28">
-          <div className="container grid grid-cols-1 gap-12 px-4 md:grid-cols-2 lg:gap-20">
+          <div className="container grid grid-cols-1 gap-12 px-4 md:items-center lg:gap-20">
             <div className="flex flex-col justify-center">
-              <h2 className="font-headline text-3xl font-bold tracking-tight md:text-4xl">
+              <h2 className="font-headline text-center text-3xl font-bold tracking-tight md:text-4xl">
                 Development & Milestones
               </h2>
               <ul className="mt-8 space-y-8">
