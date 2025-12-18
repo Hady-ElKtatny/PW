@@ -76,7 +76,7 @@ const milestones = [
 ];
 
 const leanCanvasImage = PlaceHolderImages.find(p => p.id === 'lean-canvas');
-const skillsCanyonImage = PlaceHolderImages.find(p => p.id === 'skills-canyon');
+const relevanceCrisisImage = PlaceHolderImages.find(p => p.id === 'relevance-crisis');
 
 export default function Home() {
   return (
@@ -160,7 +160,7 @@ export default function Home() {
 
         {/* Prototype Section */}
         <section id="prototype" className="w-full bg-card py-20 lg:py-28">
-          <div className="container grid grid-cols-1 gap-12 px-4 md:items-center lg:gap-20">
+          <div className="container grid grid-cols-1 gap-12 px-4 md:grid-cols-2 md:items-center lg:gap-20">
             <div className="flex flex-col justify-center">
               <h2 className="font-headline text-center text-3xl font-bold tracking-tight md:text-4xl">
                 Development & Milestones
@@ -194,17 +194,17 @@ export default function Home() {
                   </Card>
                 </div>
               )}
-               {skillsCanyonImage && (
+               {relevanceCrisisImage && (
                 <div className="space-y-2">
-                  <h3 className="text-lg font-semibold text-center">Skills Canyon Diagram</h3>
+                  <h3 className="text-lg font-semibold text-center">The Relevance Crisis</h3>
                   <Card className="overflow-hidden">
                     <Image
-                      src={skillsCanyonImage.imageUrl}
-                      alt="Skills Canyon Diagram"
-                      width={600}
-                      height={400}
+                      src={relevanceCrisisImage.imageUrl}
+                      alt="The Relevance Crisis Diagram"
+                      width={1280}
+                      height={720}
                       className="w-full object-cover"
-                      data-ai-hint={skillsCanyonImage.imageHint}
+                      data-ai-hint={relevanceCrisisImage.imageHint}
                     />
                   </Card>
                 </div>

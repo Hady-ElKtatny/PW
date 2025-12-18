@@ -7,10 +7,10 @@
       "imageHint": "lean canvas"
     },
     {
-      "id": "skills-canyon",
-      "description": "A placeholder image for the Skills Canyon diagram.",
-      "imageUrl": "https://images.unsplash.com/photo-1761251946885-342dc45f7fe5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxkaWFncmFtJTIwY2hhcnR8ZW58MHx8fHwxNzY2MDI0NDc2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "diagram chart"
+      "id": "relevance-crisis",
+      "description": "A placeholder image for the Relevance Crisis diagram.",
+      "imageUrl": "https://storage.googleapis.com/stey-public/competency-bridge-relevance-crisis.png",
+      "imageHint": "relevance crisis"
     }
   ]
 }
